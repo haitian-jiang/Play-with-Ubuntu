@@ -8,4 +8,6 @@ It reads like this
 
 ![rdp-problem](remmina-rdp.png)
 
+The problem can be solved by running ```remmina -n``` in terminal
+
 See more about this problem at [here](https://unix.stackexchange.com/questions/440803/remmina-cant-remote-into-windows-server)
