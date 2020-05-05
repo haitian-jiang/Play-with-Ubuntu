@@ -4,8 +4,6 @@ Today when I use remmina to connect a remote server running Windows Server 2016,
 
 After I have entered the ip address, username and password correctly and click OK, a message poped out.
 
-It reads like this
-
 ![rdp-problem](remmina-rdp.png)
 
 The problem can be solved by running ```remmina -n``` in terminal to open a new connection or click the icon on top bar and open a new connection.
