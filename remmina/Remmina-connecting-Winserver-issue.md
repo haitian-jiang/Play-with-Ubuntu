@@ -1,6 +1,6 @@
-# Remmina-connecting-winserver-issue
+# Remmina-connecting-Winserver-issue
 
-Today when I use remmina to connect a remote server running Winserver 2016, I met a problem. 
+Today when I use remmina to connect a remote server running Windows Server 2016, I met a problem. 
 
 After I have entered the ip address, username and password correctly and click OK, a message poped out.
 
