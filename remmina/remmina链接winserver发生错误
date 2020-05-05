@@ -1,3 +1,6 @@
 # remmina链接winserver发生错误
 
-当我使用remmina用rdp连接Windows Server主机的时候，
+当我使用remmina用rdp连接Windows Server主机的时候，报出了以下错误
+
+![rdp-problem](remmina-rdp.png)
+
