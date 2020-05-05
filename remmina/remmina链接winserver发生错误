@@ -4,3 +4,6 @@
 
 ![rdp-problem](remmina-rdp.png)
 
+是说H264解码器无法解码对应颜色深度。
+
+解决方法是
