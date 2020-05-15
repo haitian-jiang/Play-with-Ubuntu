@@ -32,6 +32,18 @@ Several weeks later, I read the [manual](https://downloadmirror.intel.com/29337/
 
 Firstly, I copied a virtual machine from another NVMe SSD to this SSD to test the writing speed. The speed was about 2GB/s, so I know that the firmware installation should be of no problem.
 
-But I also want to test the reading speed, so I looked up for it. In linux.cn, I found this [article](https://linux.cn/article-6104-1.html) that is quite useful.
+But I also want to test the reading speed, so I looked up for it. In linuxcn, I found this [article](https://zhuanlan.zhihu.com/p/33752337) that is quite useful.
 
-In this article, there are three ways to test the speed, using ``dd`` command, using ``hdparm`` command, or using the ``disk`` application from gnome. 
+In this article, there are three ways to test the speed, using ``dd`` command, using ``hdparm`` command, or using the ``disk`` application from gnome. I chose the latter two means.
+
+By running ``sudo hdparm -t /dev/nvme1n1p2``, I got a pretty nice score. It partly depends on the file system.
+
+![hdparm](hdparm.png)
+
+Also, I used the disk application from gnome. I ran 1000MiB reading test for 100 times, and it shows the raw capacity of this SSD, quite impressive. 
+
+![disk-application](disk.jpg)
+
+
+
+In general, I am very glad that I have solved the problem about the SSD speed, and the SSD is also very powerful. 
