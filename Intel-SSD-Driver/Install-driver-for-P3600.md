@@ -6,4 +6,4 @@ Ubuntu can drive this NVMe disk out of the box, but in the daily use I found tha
 
 After a simple look-up, I found the driver from the [official website](https://downloadcenter.intel.com/zh-cn/download/29337/-CLI-?product=80999) that support my SSD(P3600) and my system(Ubuntu 18.04), so I installed it.
 
-[!driver-download](driver-download.png)
+![driver-download](driver-download.png)
