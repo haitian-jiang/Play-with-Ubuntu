@@ -34,7 +34,7 @@ Firstly, I copied a virtual machine from another NVMe SSD to this SSD to test th
 
 But I also want to test the reading speed, so I looked up for it. In linuxcn, I found this [article](https://zhuanlan.zhihu.com/p/33752337) that is quite useful.
 
-In this article, there are three ways to test the speed, using ``dd`` command, using ``hdparm`` command, or using the ``disk`` application from gnome. I chose the latter two means.
+In this article, there are three ways to test the speed, using ``dd`` command, using ``hdparm`` command, or using the ``disk`` application from gnome.  The latter two means can only test the reading speed, while ``dd`` command can only test the writing command.
 
 By running ``sudo hdparm -t /dev/nvme1n1p2``, I got a pretty nice score. It partly depends on the file system.
 
@@ -44,6 +44,6 @@ Also, I used the disk application from gnome. I ran 1000MiB reading test for 100
 
 ![disk-application](disk.jpg)
 
-
+Later, I wrote a [shell script]()
 
 In general, I am very glad that I have solved the problem about the SSD speed, and the SSD is also very powerful. 
