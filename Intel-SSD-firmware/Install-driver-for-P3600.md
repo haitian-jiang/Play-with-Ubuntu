@@ -44,6 +44,6 @@ Also, I used the disk application from gnome. I ran 1000MiB reading test for 100
 
 ![disk-application](disk.jpg)
 
-Later, I wrote a [shell script]()
+Later, I wrote a [shell script](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/Intel-SSD-firmware/dd-read-test.sh) to use run ``dd`` for several times. 
 
 In general, I am very glad that I have solved the problem about the SSD speed, and the SSD is also very powerful. 
