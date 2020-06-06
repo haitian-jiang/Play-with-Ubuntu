@@ -7,7 +7,7 @@ import time
 from datetime import datetime, timedelta
 
 
-class color:
+class color:  # the control series of terminal, can change the color of output
     PURPLE = '\033[95m'
     CYAN = '\033[96m'
     DARKCYAN = '\033[36m'
