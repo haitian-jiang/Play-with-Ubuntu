@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+'''
+This is a script that gives out how much time has passed in the past year or week or day.
+'''
 import sys
 import time
 from datetime import datetime, timedelta
