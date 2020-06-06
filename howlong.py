@@ -1,6 +1,15 @@
 #!/usr/bin/env python3
 '''
 This is a script that gives out how much time has passed in the past year or week or day.
+-y parameter will only show the yearly progress
+-w will only show the weekly one
+-d will only show the daily one
+no parameter will show all three ones
+does not support integrated parameter like -yd
+sample output:
+YEAR: 158 days passed, 208 days left. 43% used.
+WEEK: 5 days 18 hours passed.
+ DAY: 5 hours 30 minutes 06 seconds left. 78% used.
 '''
 import sys
 import time
