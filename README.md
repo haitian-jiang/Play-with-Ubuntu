@@ -4,3 +4,11 @@ This is a repository to record my experience in configuring and using Ubuntu as 
 
 ## Content
 
+#### Hard Drive
+
+
+
+#### Network
+
+
+####
