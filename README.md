@@ -4,7 +4,7 @@ This is a repository to record my experience in configuring and using Ubuntu as 
 
 ## Content
 
-#### Hard Drive
+### Hard Drive
 
 [Install firmware for Intel SSD P3600](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/Intel-SSD-firmware/Install-driver-for-P3600.md)
 
@@ -14,8 +14,12 @@ Make up /boot as the Windows SSD died
 
 
 
-#### Network
+### Network
 
 [Use remmina to connect to Windows server](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/remmina/Remmina-connecting-Winserver-issue.md)
 
-####
+### Scripts for fun
+
+[A bash script to see the power consumption of CPU and GPU](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/read-core-power/read-core-power.md)
+
+[A python script to see how much time has passed in the year/week/day](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/howlong.py)
