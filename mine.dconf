@@ -1,0 +1,16 @@
+[:7f90e47e-d126-4f47-860e-5df33f216409] -> [/]
+foreground-color='rgb(128,0,255)'
+visible-name='我的'
+palette=['rgb(47,47,47)', 'rgb(205,0,0)', 'rgb(32,206,39)', 'rgb(240,190,95)', 'rgb(0,0,205)', 'rgb(192,47,169)', 'rgb(20,226,191)', 'rgb(19,33,129)', 'rgb(126,126,126)', 'rgb(255,0,0)', 'rgb(0,255,0)', 'rgb(255,255,0)', 'rgb(0,0,255)', 'rgb(255,0,255)', 'rgb(0,178,255)', 'rgb(66,87,240)']
+bold-is-bright=true
+use-system-font=false
+cursor-colors-set=false
+highlight-colors-set=false
+use-theme-colors=false
+use-transparent-background=true
+font='DejaVu Sans Mono Oblique 13'
+use-theme-transparency=false
+bold-color-same-as-fg=true
+bold-color='rgb(201,35,35)'
+background-color='rgb(156,247,255)'
+background-transparency-percent=40
