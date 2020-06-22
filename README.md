@@ -18,6 +18,8 @@ Make up /boot as the Windows SSD died
 
 [Use remmina to connect to Windows server](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/remmina/Remmina-connecting-Winserver-issue.md)
 
+Open wifi hotspot after booting automatically
+
 ### Scripts for fun
 
 [A bash script to see the power consumption of CPU and GPU](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/read-core-power/read-core-power.md)
