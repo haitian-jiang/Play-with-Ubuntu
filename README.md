@@ -10,6 +10,8 @@ Modify gnome theme and beautify
 
 Adjust hardware time for dual system
 
+Plugins and extentions
+
 ### Hard Drive
 
 [Install firmware for Intel SSD P3600](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/Intel-SSD-firmware/Install-driver-for-P3600.md)
