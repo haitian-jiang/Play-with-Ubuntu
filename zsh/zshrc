@@ -9,8 +9,6 @@ export ZSH="/home/jht/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="my_smt"
-# amuse, smt bad (base)
-# ys, suvash (good)
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -243,9 +241,6 @@ alias p='python'
 alias j='jupyter notebook'
 alias le='conda activate learn'
 alias tor='conda activate torch'
-alias leetcode='cd /media/jht/数据/学术/b计算机/Python代码/题/LeetCode'
-alias rpi='cd /media/jht/数据/学术/b计算机/硬件/单片机/Raspberry\ Pi/Play\ with\ Raspberry\ Pi'
-alias ubuntu='cd /media/jht/数据/学术/b计算机/Linux/Play-with-Ubuntu'
 
 # list with grep
 alias fyt='ps -lfC'
