@@ -10,13 +10,23 @@ This is a repository to record my experience in configuring and using Ubuntu as 
 
 - Plugins and extentions
 
-### Hard Drive
+### Application settings
+
+- DPI adjusting for 4K monitor(Netease Cloud Music, MATLAB, QT applications)
+
+- Auto start GUI applications on entering system
+
+### Hard drive
 
 - [Install firmware for Intel SSD P3600](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/Intel-SSD-firmware/Install-driver-for-P3600.md)
 
 - Rescue data from a HDD drive
 
 - Rescue /boot partition as the Windows SSD died
+
+- PCIe Bus error in sys.log
+
+- Manually set /swap partition
 
 ### Network
 
