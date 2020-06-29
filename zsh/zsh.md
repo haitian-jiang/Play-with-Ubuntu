@@ -11,3 +11,11 @@ git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh
 ```
 
 ```bindkey ';' autosuggest-accept```
+
+
+
+```bash
+sudo update-alternatives --config x-terminal-emulator
+```
+
+change default terminal for Ctrl-Alt-T
