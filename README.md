@@ -34,6 +34,8 @@ This is a repository to record my experience in configuring and using Ubuntu as 
 
 - Open Wifi hotspot after booting automatically
 
+- enable SMB sharing
+
 - Proxy settings(for shell, git, snap, anaconda)
 
 ### Scripts for fun
