@@ -20,12 +20,14 @@ This is a repository to record my experience in configuring and using Ubuntu as 
 
 ### Network
 
-[Use remmina to connect to Windows server](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/remmina/Remmina-connecting-Winserver-issue.md)
+- [Use remmina to connect to Windows server](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/remmina/Remmina-connecting-Winserver-issue.md)
 
-Open Wifi hotspot after booting automatically
+- Open Wifi hotspot after booting automatically
+
+- Proxy settings(for shell, git, snap, anaconda)
 
 ### Scripts for fun
 
-[A bash script to see the power consumption of CPU and GPU](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/read-core-power/read-core-power.md)
+- [A bash script to see the power consumption of CPU and GPU](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/read-core-power/read-core-power.md)
 
-[A python script to see how much time has passed in the year/week/day](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/howlong.py)
+- [A python script to see how much time has passed in the year/week/day](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/howlong.py)
