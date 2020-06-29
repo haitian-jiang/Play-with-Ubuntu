@@ -6,11 +6,11 @@ This is a repository to record my experience in configuring and using Ubuntu as 
 
 ### Setting up
 
-Modify gnome theme and beautify
+- Modify gnome theme and beautify
 
-Adjust hardware time for dual system
+- Adjust hardware time for dual system
 
-Plugins and extentions
+- Plugins and extentions
 
 ### Hard Drive
 
