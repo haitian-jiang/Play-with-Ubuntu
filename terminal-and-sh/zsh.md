@@ -23,3 +23,6 @@ change default terminal for Ctrl-Alt-T
 
 
 [alacritty color theme](https://github.com/alacritty/alacritty/wiki/Color-schemes)
+
+
+zsh-syntax-highlighting
