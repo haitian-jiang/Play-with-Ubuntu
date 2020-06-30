@@ -25,4 +25,4 @@ change default terminal for Ctrl-Alt-T
 [alacritty color theme](https://github.com/alacritty/alacritty/wiki/Color-schemes)
 
 
-zsh-syntax-highlighting
+[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
