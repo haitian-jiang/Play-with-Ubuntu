@@ -8,4 +8,8 @@ You can use "gnome-tweak-tool" to manage your shell extensions. Run ```sudo apt 
 
 ### Install
 
-``sudo apt-get install chrome-gnome-shell``
+If you want to install extensions directly from the website, you should get a native nost connector first.
+
+You will be asked to install a FireFox extension called GNOME Shell integration if you install GNOME extensions from the website by FireFox.
+
+If you use Chrome, there is a similar extension. And you can also get it using command ``sudo apt-get install chrome-gnome-shell``.
