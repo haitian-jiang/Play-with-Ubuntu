@@ -24,7 +24,9 @@ After you get the native host extension, you can install whatever extensions you
 
   ![dock](dock.png)
 
+- [Clipboard indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
 
+  To show your clipboard history
 
 
 
@@ -50,9 +52,7 @@ After you get the native host extension, you can install whatever extensions you
 
   Make a blurry effect on the wallpaper background when you open the launch screen(Super-A) or see your activities(left Super)
 
-- [Clipboard indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
-
-  To show your clipboard history
+- 
 
 - [Coverflow alt-tab](https://extensions.gnome.org/extension/97/coverflow-alt-tab/)
 
