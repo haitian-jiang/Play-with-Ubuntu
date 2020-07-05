@@ -1,0 +1,43 @@
+wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
+chmod +x shadowsocks-all.sh
+./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
+
+
+./shadowsocks-all.sh uninstall
+
+
+启动脚本
+启动脚本后面的参数含义，从左至右依次为：启动，停止，重启，查看状态。
+Shadowsocks-Python 版：
+/etc/init.d/shadowsocks-python start | stop | restart | status
+ShadowsocksR 版：
+/etc/init.d/shadowsocks-r start | stop | restart | status
+Shadowsocks-Go 版：
+/etc/init.d/shadowsocks-go start | stop | restart | status
+Shadowsocks-libev 版：
+/etc/init.d/shadowsocks-libev start | stop | restart | status
+
+
+各版本默认配置文件
+Shadowsocks-Python 版：
+/etc/shadowsocks-python/config.json
+ShadowsocksR 版：
+/etc/shadowsocks-r/config.json
+Shadowsocks-Go 版：
+/etc/shadowsocks-go/config.json
+Shadowsocks-libev 版：
+/etc/shadowsocks-libev/config.json
+
+
+BBR plus
+wget "https://github.com/chiakge/Linux-NetSpeed/raw/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh 
+
+
+安装 BBR
+wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
+获取读写权限
+chmod +x bbr.sh
+启动BBR安装
+./bbr.sh
+接着按任意键，开始安装，坐等一会。安装完成一会之后它会提示我们是否重新启动vps，我们输入 y 确定重启服务器。
+重新启动之后，输入 lsmod | grep bbr 如果看到 tcp_bbr 就说明 BBR 已经启动了。
