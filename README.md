@@ -43,3 +43,6 @@ This is a repository to record my experience in configuring and using Ubuntu as 
 - [A bash script to see the power consumption of CPU and GPU](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/read-core-power/read-core-power.md)
 
 - [A python script to see how much time has passed in the year/week/day](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/howlong.py)
+
+
+netplwiz
