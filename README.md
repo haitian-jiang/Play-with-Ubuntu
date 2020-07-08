@@ -28,6 +28,10 @@ This is a repository to record my experience in configuring and using Ubuntu as 
 
 - Manually set /swap partition
 
+- Automatically mount NTFS hard drive in /etc/fstab
+
+- Install exFAT for Ubuntu
+
 ### Network
 
 - [Use remmina to connect to Windows server](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/remmina/Remmina-connecting-Winserver-issue.md)
