@@ -7,5 +7,5 @@ Ubuntu does not support exFAT file system by defaults. It is said that the reaso
 This can be solved by simply install the exFAT file system by the following command.
 
 ```bash
-sudo apt-get install exfat-utils exfat-fuse
+sudo apt install exfat-utils exfat-fuse
 ```
