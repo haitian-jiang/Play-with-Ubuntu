@@ -16,6 +16,8 @@ This is a repository to record my experience in configuring and using Ubuntu as 
 
 - Auto start GUI applications on entering system
 
+- [24-hour time format for GNOME desktop applications](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/Appilications/thunderbird-date-format.md)
+
 ### Hard drive
 
 - [Install firmware for Intel SSD P3600](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/Hard-Drive/Intel-SSD-firmware/Install-driver-for-P3600.md)
