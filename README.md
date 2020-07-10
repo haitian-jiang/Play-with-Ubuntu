@@ -14,7 +14,7 @@ This is a repository to record my experience in configuring and using Ubuntu as 
 
 - DPI adjusting for 4K monitor(Netease Cloud Music, MATLAB, QT applications)
 
-- Auto start GUI applications on entering system
+- [Auto start GUI applications on entering system](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/Appilications/Auto-start-GUI-applications-on-entering-system.md)
 
 - [24-hour time format for GNOME desktop applications](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/Appilications/thunderbird-date-format.md)
 
