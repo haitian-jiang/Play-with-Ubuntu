@@ -12,7 +12,7 @@ This is a repository to record my experience in configuring and using Ubuntu as 
 
 ### Application settings
 
-- DPI adjusting for 4K monitor(Netease Cloud Music, MATLAB, QT applications)
+- [DPI adjusting for 4K monitor(Netease Cloud Music, MATLAB, QT applications)](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/Appilications/DPI-adjusting-for-4K-monitor.md)
 
 - [Auto start GUI applications on entering system](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/Appilications/Auto-start-GUI-applications-on-entering-system.md)
 
