@@ -8,7 +8,7 @@ This is a repository to record my experience in configuring and using Ubuntu as 
 
 - Modify gnome theme and beautify
 
-- Plugins and extentions
+- [Plugins and extentions](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/Setting-up/GNOME/GNOME-shell-extensions.md)
 
 ### Application settings
 
