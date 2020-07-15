@@ -4,7 +4,14 @@ The official site of GNOME shell extensions is [https://extensions.gnome.org](ht
 
 ### Manage
 
-You can use "gnome-tweak-tool" to manage your shell extensions. Run ```sudo apt install gnome-tweak-tool``` in terminal to install it. All your installed extensions can be seen in the "extension" tab.
+You can use "gnome-tweak-tool" to manage your shell extensions. Run 
+
+```
+sudo apt install gnome-tweak-tool
+sudo apt-get install gnome-shell-extensions
+```
+
+in terminal to install it. All your installed extensions can be seen in the "extension" tab.
 
 ### Install
 
@@ -28,21 +35,21 @@ After you get the native host extension, you can install whatever extensions you
 
   To show your clipboard history
 
+- [Internet Speed Meter](https://extensions.gnome.org/extension/2980/internet-speed-meter/)
 
+  Simple but powerful, show the sum of uploads and downloads speed, no customizing settings
 
+- [Topicons](https://extensions.gnome.org/extension/495/topicons/)
 
+  Essential if want to make icons of QQ or WeChat lie in the top bar
 
+- [User themes](https://extensions.gnome.org/extension/19/user-themes/)
 
+  Essential if you want to use customized gnome themes.
 
+- [System-monitor](https://extensions.gnome.org/extension/120/system-monitor/)
 
-
-
-
-
-
-
-
-- 
+  Show CPU usage, memory usage, etc. in graphics.![system-monitor](system-monitor.png)
 
 - [Appfolders management extension](https://extensions.gnome.org/extension/1217/appfolders-manager/)
 
@@ -52,11 +59,12 @@ After you get the native host extension, you can install whatever extensions you
 
   Make a blurry effect on the wallpaper background when you open the launch screen(Super-A) or see your activities(left Super)
 
-- 
-
 - [Coverflow alt-tab](https://extensions.gnome.org/extension/97/coverflow-alt-tab/)
 
   Show a fancy effect when you switch applications
 
   ![coverflow](coverflow.png)
 
+- [Unite](https://extensions.gnome.org/extension/1287/unite/)
+
+  Squeeze the title bar of applications into top bar when the application takes full screen
