@@ -6,7 +6,7 @@ This is a repository to record my experience in configuring and using Ubuntu as 
 
 - [Adjust hardware time for dual system](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/Setting-up/Hardware-time.md)
 
-- Modify gnome theme and beautify
+- [Modify gnome theme and beautify(others')](https://www.cnblogs.com/feipeng8848/p/8970556.html)
 
 - [Plugins and extentions](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/Setting-up/GNOME/GNOME-shell-extensions.md)
 
