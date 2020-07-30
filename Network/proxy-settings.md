@@ -21,9 +21,9 @@ For long term change, add these commands into ``~/.bashrc`` or ``~/.zshrc``
 
 [reference](https://segmentfault.com/q/1010000000118837) [reference](https://segmentfault.com/a/1190000018813121) [reference](https://gist.github.com/laispace/666dd7b27e9116faece6) [reference](https://gist.github.com/fearblackcat/850c6e027d5a03017c44daaa6a7ffc30) [reference](https://www.v2ex.com/t/332816)
 
-step 1: configure http:// and git://
+step 1: configure http://
 
-You can add these in ``~/.gitconfig``, the [core] is used for git://
+You can add these in ``~/.gitconfig``
 
 ```bash
 [core]
@@ -38,16 +38,15 @@ Or you can run the following commands to reach the same effect
 
 ```bash
 git config --global http.proxy 'http://127.0.0.1:1080'
-git config --global http.proxy 'https://127.0.0.1:1080'
-# git config --global --unset http.https  # unset the http proxy
+git config --global https.proxy 'https://127.0.0.1:1080'
 git config --global core.gitproxy 'socks5://127.0.0.1:1088'
 ```
 
-Now you can accelerate ``git clone git://`` or ``git clone http://``
+Now you can accelerate ``git clone http://``
 
 
 
-step 2: configure ssh://
+step 2: configure git://
 
 Add the following into ``~/.ssh/config``
 
@@ -59,3 +58,4 @@ Port 22
 ProxyCommand nc -x 127.0.0.1:1088 %h %p
 ```
 
+Now you can accelerate ``git clone git://``
