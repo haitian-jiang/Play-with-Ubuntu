@@ -42,7 +42,7 @@ This is a repository to record my experience in configuring and using Ubuntu as 
 
 - enable SMB sharing
 
-- Proxy settings(for shell, git, snap, anaconda)
+- [Proxy settings(for shell, git, snap, anaconda)](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/Network/proxy-settings.md)
 
 ### Scripts for fun
 
