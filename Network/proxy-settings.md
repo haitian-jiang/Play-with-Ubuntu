@@ -1,6 +1,6 @@
 # Proxy Setting
 
-Assuming that you have already set up shadowsocks or v2ray, etc., and your http proxy runs on port 1080, sock proxy runs on port 1088
+Assuming that you have already set up shadowsocks or v2ray, etc., and your http proxy runs on port 1080, sock proxy runs on port 1088.
 
 
 
@@ -58,8 +58,6 @@ Port 22
 ProxyCommand nc -x 127.0.0.1:1088 %h %p
 ```
 
-<<<<<<< HEAD
 Now you can accelerate ``git clone git://``
-=======
+
 run ``chmod 644 ~/.ssh/config``, otherwise ssh will return "Bad owner or permissions on /home/$USER/.ssh/config"
->>>>>>> 6b5366042542d51c3e3ec69e1c597e5b74ad2ab9
