@@ -38,7 +38,7 @@ This is a repository to record my experience in configuring and using Ubuntu as 
 
 - [Use remmina to connect to Windows server](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/Network/remmina/Remmina-connecting-Winserver-issue.md)
 
-- Open Wifi hotspot after booting automatically
+- Open Wifi hotspot after booting automatically: nmcli con up Hotspot ifname wlo1
 
 - enable SMB sharing
 
