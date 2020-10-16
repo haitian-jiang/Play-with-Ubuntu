@@ -30,7 +30,7 @@ This is a repository to record my experience in configuring and using Ubuntu as 
 
 - [Manually set /swap partition](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/Hard-Drive/Manually-set-swap-partition.md)
 
-- Automatically mount NTFS hard drive in /etc/fstab
+- [Automatically mount NTFS hard drive in /etc/fstab](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/Hard-Drive/fstab)
 
 - [Install exFAT for Ubuntu](https://github.com/bill-ginger/Play-with-Ubuntu/blob/master/Hard-Drive/exfat.md)
 
