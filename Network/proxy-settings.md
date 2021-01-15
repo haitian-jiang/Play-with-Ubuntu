@@ -61,3 +61,10 @@ ProxyCommand nc -x 127.0.0.1:1088 %h %p
 Now you can accelerate ``git clone git://``
 
 run ``chmod 644 ~/.ssh/config``, otherwise ssh will return "Bad owner or permissions on /home/$USER/.ssh/config"
+
+
+### snap
+```bash
+sudo snap set system proxy.http="http://<proxy_addr>:<proxy_port>"
+sudo snap set system proxy.https="http://<proxy_addr>:<proxy_port>"
+```
