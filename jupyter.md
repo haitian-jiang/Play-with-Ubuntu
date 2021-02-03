@@ -1,5 +1,11 @@
 # jupyter environments
 
+### Checking supporting jupyter kernels
+
+```bash
+jupyter kernelspec list
+```
+
 ### Add sage to jupyter kernel
 
 ```bash
@@ -12,12 +18,6 @@ sudo jupyter kernelspec install ./Applications/SageMath/local/share/jupyter/kern
 conda activate tf1
 conda install ipykernel
 sudo python -m ipykernel install --name tf1 --display-name "tensorflow1.13"
-```
-
-### Checking supporting jupyter kernels
-
-```bash
-jupyter kernelspec list
 ```
 
 ### Add R environment
