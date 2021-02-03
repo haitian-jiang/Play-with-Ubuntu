@@ -38,5 +38,5 @@ options(repos = 'http://mirrors.ustc.edu.cn/CRAN/')  # change the mirror
 getOption('repos')  # see whether the mirros has been changed
 install.packages(c('repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))
 devtools::install_github('IRkernel/IRkernel')
-IRkernel::installspec(user = FALSE)  # if you didn't use sudo to install packages, then user=TRUE, and the kernel will be installed in home directory
+IRkernel::installspec(user = FALSE)  # if you didn't use sudo to install packages, then user=TRUE, and the kernel would be installed in home directory
 ```
