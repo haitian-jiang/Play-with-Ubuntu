@@ -25,9 +25,11 @@ jupyter kernelspec list
 Use R-Studio or R-Gui rather than R-console to execute the following commands.
 
 Otherwise there will be errors like this.
-
+```
 --- 在此連線階段时请选用CRAN的鏡子 ---
 错误: .onLoad failed in loadNamespace() for 'tcltk', details:
   call: dyn.load(file, DLLpath = DLLpath, ...)
   error: 无法载入共享目标对象‘/usr/lib/R/library/tcltk/libs/tcltk.so’：:
   libtk8.6.so: 无法打开共享对象文件: 没有那个文件或目录
+```
+
