@@ -48,3 +48,11 @@ IRkernel::installspec(user = FALSE)  # if you didn't use sudo to install package
 jupyter notebook --generate-config
 vim ~/.jupyter/jupyter_notebook_config.py
 ```
+
+In `jupyter_notebook_config.py`, modify the following options
+```python
+c.ConnectionFileMixin.ip = '0.0.0.0'
+c.NotebookApp.ip = '*'
+```
+
+[reference](https://blog.csdn.net/Master_Lin_007/article/details/108023362) [reference](https://blog.csdn.net/qcyfred/article/details/82767965)
