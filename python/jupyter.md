@@ -40,3 +40,11 @@ install.packages(c('repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtool
 devtools::install_github('IRkernel/IRkernel')
 IRkernel::installspec(user = FALSE)  # if you didn't use sudo to install packages, then user=TRUE, and the kernel would be installed in home directory
 ```
+
+
+# Allow connection from other devices
+
+```bash
+jupyter notebook --generate-config
+vim ~/.jupyter/jupyter_notebook_config.py
+```
