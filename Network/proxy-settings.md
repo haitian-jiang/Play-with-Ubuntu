@@ -55,7 +55,8 @@ Host github.com
 HostName github.com
 User git
 Port 22
-ProxyCommand nc -x 127.0.0.1:1088 %h %p
+ProxyCommand nc -x 127.0.0.1:1088 %h %p  # socks5
+ProxyCommand socat - PROXY:127.0.0.1:%h:%p,proxyport=1080  # http
 ```
 
 Now you can accelerate ``git clone git://``
