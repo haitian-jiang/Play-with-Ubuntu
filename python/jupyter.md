@@ -56,3 +56,20 @@ c.NotebookApp.ip = '*'
 ```
 
 [reference](https://blog.csdn.net/Master_Lin_007/article/details/108023362) [reference](https://blog.csdn.net/qcyfred/article/details/82767965)
+
+
+
+
+# Spec
+```bash
+(base) 
+jht in ~  
+4315 ➜ jupyter kernelspec list         
+Available kernels:
+  ir                     /home/jht/.local/share/jupyter/kernels/ir
+  wolframlanguage12.2    /home/jht/.local/share/jupyter/kernels/wolframlanguage12.2
+  python3                /opt/anaconda/share/jupyter/kernels/python3
+  matlab                 /usr/local/share/jupyter/kernels/matlab
+  tf1                    /usr/local/share/jupyter/kernels/tf1
+  torch                  /usr/local/share/jupyter/kernels/torch
+```
