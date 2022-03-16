@@ -1,4 +1,11 @@
+# clear home
+rm Anaconda3-2020.11-Linux-x86_64.sh
+rm -r lishujingDesk
+rm -r nccl
+rm -r runcode
+
 # utils
+chmod 1777 /tmp  # for apt to work
 apt update
 apt install -y htop
 apt install -y iputils-ping
@@ -43,4 +50,16 @@ alias p='python3'
 export PATH="/usr/local/cuda/bin:.:$PATH"
 EOF
 source .zshrc
+
+
+# jupyter
+jupyter notebook --generate-config
+sed -i "s/# c.NotebookApp.ip = '127.0.0.1'/c.NotebookApp.ip = '0.0.0.0'/" ~/.jupyter/jupyter_notebook_config.py
+sed -i "s/# c.NotebookApp.open_browser = True/c.NotebookApp.open_browser = False/" ~/.jupyter/jupyter_notebook_config.py
+
+# conda
+conda create -n mytorch python=3.9 pytorch torchvision jupyter ipython jupyterlab networkx cudatoolkit=11.3 -c pytorch
+conda install pyg -c pyg -c conda-forge
+conda deactivate
+python -m ipykernel install --name tf1 --display-name "tensorflow1.13"
 
